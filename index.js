@@ -1,5 +1,6 @@
-import {Account} from "./bankAccount.js"
+import { sum, multiply, } from "./maths.js"
 
-let myAccount = new Account(100) 
+let
+    total = sum(4, 5)
 
-console.log(`My balance is: ${myAccount.balance}`)
+console.log(`The cost is ${total}`)
